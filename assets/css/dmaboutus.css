@@ -1,13 +1,12 @@
 .aboutus-sec{
-    padding:5rem;
+    padding:5rem 3rem;
+    background-color: #fdfbf7;
 }
 .dmaboutus{
     display:grid;
     grid-template-columns:1fr 1fr;
 }
-section{
-    margin:2rem 0rem;
-}
+
 .para1 p{
     font-size: 18px;
     font-weight: 700;
@@ -168,11 +167,17 @@ section{
 }
 
 
+
 @media only screen and (max-width: 768px) {
     .dmaboutus {
         grid-template-columns: 1fr;
     }
-    
+    .img-aboutus img{
+        width:100%;
+    }
+    .dba h2{
+        font-size:30px;
+    }
     .exp, .business, .para3 {
         grid-template-columns: 1fr;
     }
@@ -181,7 +186,6 @@ section{
         width: 100%;
     }
 }
-
 
 @media only screen and (max-width: 1300px) {
     .dmaboutus {
@@ -195,5 +199,7 @@ section{
     .para2 p, .experience p, .para3 p {
         width: 100%;
     }
-    
 }
+
+
+
